@@ -4,7 +4,6 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
 public class Ingredient {
 
 	private final String id;
@@ -13,9 +12,5 @@ public class Ingredient {
 
 	public static enum Type {
 		WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
-	}
-
-	public Type getType() {
-		return type;
 	}
 }
