@@ -29,7 +29,7 @@ public class OrderController {
             log.info("Order form validation error " + errors);
             return "orderForm";
         }
-        log.info("Order submitted : " + order);
+        log.info("Order submitted    : " + order);
         return "redirect:/";
     }
 }
