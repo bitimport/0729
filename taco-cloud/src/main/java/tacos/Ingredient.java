@@ -1,7 +1,6 @@
 package tacos;
 
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 @Data
 public class Ingredient {
