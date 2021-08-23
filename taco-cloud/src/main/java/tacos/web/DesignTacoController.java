@@ -82,7 +82,7 @@ public class DesignTacoController {
             model.addAttribute("design", design);
             return "design";
         }
-        log.info("Processing design: " + design);
+        log.info("Processing design: " + design);   
         return "redirect:/orders/current";    
     }
 
