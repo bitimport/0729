@@ -83,7 +83,7 @@ public class DesignTacoController {
             return "design";
         }
         log.info("Processing design: " + design);
-        return "redirect:/orders/current";
+        return "redirect:/orders/current";    
     }
 
     private List<Ingredient> filterByType(List<Ingredient> ingredients, Type type) {
