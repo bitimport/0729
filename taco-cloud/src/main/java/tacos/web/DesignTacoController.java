@@ -79,7 +79,7 @@ public class DesignTacoController {
         //public String processDesign(@Valid Taco design, Errors errors) {
         if (errors.hasErrors()) {
             log.info("Form has eror " + errors);
-            model.addAttribute("design", design);
+            model.addAttribute("design", design) ;
             return "design";
         }
         log.info("Processing design: " + design);   
